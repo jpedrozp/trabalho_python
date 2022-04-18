@@ -1,6 +1,6 @@
 # Questão 01 - Escreva um programa em Python que pede ao utilizador que lhe forneça um inteiro correspondente a um número de segundos e que 
-calcula o número de dias correspondentes a esse número de segundos. O número de dias é fornecido como um real. O programa termina quando o utilizador 
-fornece um número negativo.
+# calcula o número de dias correspondentes a esse número de segundos. O número de dias é fornecido como um real. O programa termina quando o utilizador 
+# fornece um número negativo.
 
 while True:
   try:

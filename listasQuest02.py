@@ -7,10 +7,11 @@
 lista = []
 while True:
   valor = input('Digite um valor (Linha em branco para parar): ')
-  lista.sort()
-  if valor == '': 
-    print(lista)
+  if valor == '':
+    lista.sort()
+    for i, enu in enumerate(lista):
+      print(enu)
     break
-  lista.append(valor)  
-  
-# NÃO TERMINEI PQ TA COM ERRO
+  else:
+    lista.append(int(valor)) 
+
